@@ -1,0 +1,13 @@
+img{
+    width: 400px;
+    height: 275px;
+}
+.f-line{
+    width: 1077px;
+}
+figcaption{
+    font-family: 'Radley', serif;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+}
