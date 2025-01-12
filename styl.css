@@ -2,8 +2,10 @@ img{
     width: 400px;
     height: 275px;
 }
-.f-line{
+.line{
     width: 1077px;
+    height: 20px;
+    fill: #0085FF;
 }
 figcaption{
     font-family: 'Radley', serif;
