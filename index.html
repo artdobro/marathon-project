@@ -1,107 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styl.css">
+    <title>Харків - Місто Герой</title>
+    <link rel="stylesheet" href="/styl.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h3>#<span>Stand</span>With<span>Ukraine</span></h3>
-        <p>#Русский военный корабль, иди на#*й</p>
+      <div class="stand-with-ukraine">
+         #<span style="color: blue">Stand</span><span>With</span><span style="color: #00A3FF">Ukraine</span>
+          <div class="ship" style="color: red;">#Русский военный корабль, иди на#и</div>
+     </div>
+        <div  class="hero-image">
+            <div class="overlay"></div>
+          
+            <div  class="hero-text">
+              <div class="blue"></div>
+              <div class="yellow"></div>
+                <h1>ХАРКІВ - МІСТО ГЕРОЙ!<br>МИ НЕЗДОЛАННІ!<br>ВСЕ БУДЕ УКРАЇНА!</h1>
+            </div>
+            <img   class="main-photo" src="/img/Freedom-Square.jpg" alt="">
+        </div>
     </header>
     <main>
-        <section>
-            <h1>
-                ХАРКІВ - МІСТО ГЕРОЙ! 
-                МИ НЕЗДОЛАННІ! 
-                ВСЕ БУДЕ УКРАЇНА!
-            </h1>
-             <img style="width: 1000px;" src="./img/Freedom-Square.jpg" alt="Freedom-Square">
-        </section>
+        <section class="places">
             <h2>ВИЗНАЧНІ МІСЦЯ ХАРКОВА</h2>
-            <img src="./img/line.png" alt="" style="width: 1077px; height: 1px;">
-          <ul>
-              <li>
-                  <img src="./img/shevchenko.jpg" alt="sad shevchenko">
-                  <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B4
-                  _%D1%96%D0%BC%D0%B5%D0%BD%D1%96
-                  _%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D0%B0
-                  _%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%B0
-                  _(%D0%A5%D0%B0%D1%80%D0%BA%D1%96%D0%B2)" target="_blank">Парк Шевченко</a>
-                  <p>Головний парк Харкова</p>
-              </li>
-            <li>
-                <img src="./img/dergprom.jpg" alt="dergprom">
-                <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81
-                %D0%BF%D1%80%D0%BE%D0%BC">Держпром</a>
-                <p>Будинок державної промисловості</p>
-            </li>
-            <li>
-                <img src="./img/monument-.jpg" alt="monument shevchenko">
-                <a target="_blank" href="https://uk.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BC%27%D1%8F%D1%82%D0%BD%D0%B8%D0%BA
-                _%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D0%BE%D0%B2%D1%96
-                _%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D1%83
-                _(%D0%A5%D0%B0%D1%80%D0%BA%D1%96%D0%B2)">
-                Пам’ятник Тарасові Шеченку</a>
-                <p>Пам’ятник українському
-                письменнику, поетові, митцю i
-                мислителю Тарасові Шевченку</p>
-            </li>
-            <li>
-                <img src="./img/karazin.jpg" alt="universetet karazina">
-                <a target="_blank" href="">Харківський
-                Національний
-                Університет ім.Каразіна</a>
-                <p>Один із старіших університетів
-                у Східній Європі</p>
-            </li>
-            <li>
-                <img src="./img/miror.jpg" alt="miror water">
-                <a target="_blank" href="">Дзеркальний Струмінь</a>
-                <p>Альтанка і фонтан,
-                сучасний символ міста</p>
-            </li>
-            <li>
-                <img src="./img/map.jpg" alt="zoo">
-                <a target="_blank" href="">Харківський зоопарк</a>
-                <p>Національний зоологічний парк,
-                найстаріший в Україні</p>
-            </li>
-            <li>
-                <img src="./img/strelka.jpg" alt="lopanska strelka">
-                <a target="_blank" href="">Лопанська Стрілка</a>
-                <p>Сквер та міст у центрі Харкова</p>
-            </li>
-            <li>
-                <img src="./img/vokzal.png" alt="vokzal">
-                <a target="_blank" href="">Південний Вокзал</a>
-                <p>Головна пассажирська станція</p>
-            </li>
-            <li>
-                <img src="./img/theatre.jpg" alt="XHATOБ">
-                <a target="_blank" href="">Харківський
-                Національни Театр
-                Опери та Балету</a>
-                <p>Перший український стаціонарний
-                театр</p>
-            </li>
-          </ul> 
+            <img class="line" src="/img/line.png" alt="">
+            <div class="grid">            
+            <a href="./place-content/park.html">
+              <div class="card">
+                <img src="img/shevchenko.jpg" alt="Парк Шевченка">
+                 <h3>Парк Шевченко</h3>
+                 <p>Головний парк Харкова</p>
+              </div>
+            </a>
+            <a href="./place-content/derzprom.html">
+               <div class="card">
+                  <img src="img/dergprom.jpg" alt="Держпром">
+                  <h3>Держпром</h3>
+                  <p>Будинок державної промисловості</p>
+              </div>
+            </a>
+            <a href="./place-content/monument.html">
+             <div class="card">
+                <img src="img/monument-.jpg" alt="Пам'ятник Тарасові Шевченку">
+                <h3>Пам'ятник Тарасові Шевченку</h3>
+                  <p>Пам'ятник українському поету, художнику, прозаїку, мислителю Тарасові Шевченку</p>
+              </div>
+            </a>
+              <a href="./place-content/univers.html">
+             <div class="card">
+                  <img src="img/karazin.jpg" alt="Харківський Національний Університет ім.Каразіна">
+                <h3>Харківський Національний Університет ім.Каразіна</h3>
+                  <p>Один з найстаріших університетів у Східній Європі</p>
+              </div>
+            </a>
+              <a href="./place-content/miror.html">
+               <div class="card">
+                  <img src="img/miror.jpg" alt="Дзеркальний Струмінь">
+                  <h3>Дзеркальний Струмінь</h3>
+                  <p>Альтанка і фонтан, сучасний символ міста</p>
+              </div>
+            </a>
+              <a href="./place-content/zoo.html">
+             <div class="card">
+                  <img src="img/map.jpg" alt="Харківський зоопарк">
+                 <h3>Харківський зоопарк</h3>
+                  <p>Національний зоологічний парк, найстаріший в Україні</p>
+              </div>
+            </a>
+              <a href="./place-content/strilka.html">
+              <div class="card">
+                  <img src="img/strelka.jpg" alt="Лопанська Стрілка">
+                 <h3>Лопанська Стрілка</h3>
+                  <p>Сквер та міст у центрі Харкова</p>
+              </div>
+            </a>
+              <a href="./place-content/vokzal.html">
+                <div class="card">
+                    <img src="img/vokzal.png" alt="Південний Вокзал">
+                    <h3>Південний Вокзал</h3>
+                     <p>Головна пасажирська станція</p>
+               </div>
+              </a>
+               <a href="./place-content/theatre.html">
+                <div class="card">
+                     <img src="img/theatre.jpg" alt="Харківський Національний Театр Опери та Балету">
+                     <h3>Харківський Національний Театр Опери та Балету</h3>
+                    <p>Головний український стаціонарний театр</p>
+                 </div>
+                </a>
+            </div>
         </section>
-        <section>
-            <h2>Видатні Харків'яни</h2>
-            <div class="line"></div>
-          <ul>
-              <li>
-                  
-              </li>
-          </ul>
+
+        <section class="people">
+            <h2>ВИДАТНІ ХАРКІВ'ЯНИ</h2>
+            <img class="line" src="/img/line.png" alt="">
+            <div class="grid">
+              <a href="./person-content/scovoroda.html">
+                  <div class="card">
+                       <img src="img/grigory.jpg" alt="Григорій Сковорода">
+                     <h3>Григорій Сковорода</h3>
+                    <p>Український філософ-містик, богослов, поет, педагог і композитор літургійної музики.</p>
+                 </div>
+                </a>
+                 <a href="./person-content/karazin.html">
+                <div class="card">
+                       <img src="img/Vasilij_Karazin.jpg" alt="Василь Каразін">
+                     <h3>Василь Каразін</h3>
+                    <p>Український вчений, винахідник, громадський діяч. Засновник Харківського університету.</p>
+                </div>
+              </a>
+                <a href="./person-content/gurchenko.html">
+                <div class="card">
+                      <img src="img/gurchenko.jpg" alt="Людмила Гурченко">
+                     <h3>Людмила Гурченко</h3>
+                    <p>Акторка та співачка</p>
+                 </div>
+                </a>
+                 <a href="./person-content/babkin.html">
+                 <div class="card">
+                      <img src="img/babkin.jpg" alt="Сергій Бабкін">
+                    <h3>Сергій Бабкін</h3>
+                     <p>Сучасний співак, актор, музикант. автор пісень, та виконавець власних пісень.</p>
+                 </div>
+                </a>
+                 <a href="./person-content/mechnikov.html">
+                 <div class="card">
+                     <img src="img/mechnikov.jpg" alt="Ілля Мечников">
+                    <h3>Ілля Мечников</h3>
+                    <p>Лауреат Нобелівської премії в області фізіології та медицини.</p>
+                 </div>
+                </a>
+                 <a href="./person-content/beketov.html">
+                  <div class="card">
+                     <img src="img/beketov.jpg" alt="Олексій Бекетов">
+                     <h3>Олексій Бекетов</h3>
+                    <p>Архітектор, створивший зовнішній вигляд Харкова. Створив багато споруд, серед яких: Будинок науки, Чоботарська вулиця, Анбуш, Баку та інших міст.</p>
+                </div>
+              </a>
+                <a href="./person-content/barabashov.html">
+               <div class="card">
+                    <img src="img/barabashov.jpg" alt="Микола Барабашов">
+                      <h3>Микола Барабашов</h3>
+                    <p>Видатний астроном, засновник Харківського планетарію.</p>
+                 </div>
+                </a>
+                 <a href="./person-content/landau.html">
+                  <div class="card">
+                     <img src="img/landau.jpg" alt="Лев Ландау">
+                      <h3>Лев Ландау</h3>
+                     <p>Фізик, лауреат Нобелівської премії</p>
+                 </div>
+                </a>
+                 <a href="./person-content/shulgenko.html">
+                <div class="card">
+                   <img src="img/shulzhenko.jpg" alt="Клавдія Шульженко">
+                  <h3>Клавдія Шульженко</h3>
+                  <p>Українська співачка, акторка</p>
+                </div>
+              </a>
+                <a href="./person-content/bukov.html">
+                 <div class="card">
+                       <img src="img/bykov.jpg" alt="Леонід Биков">
+                      <h3>Леонід Биков</h3>
+                    <p>Культовий актор та режисер</p>
+               </div>
+              </a>
+               <a href="./person-content/alchHr.html">
+               <div class="card">
+                       <img src="img/alchevska.jpg" alt="Алчевська Христина">
+                      <h3>Алчевська Христина</h3>
+                    <p>Українська педагогиня, організатор народної освіти, діячка феміністичного руху, засновниця Харківської приватної жіночої недільної школи</p>
+               </div>
+              </a>
+               <a href="./person-content/alchO.html">
+               <div class="card">
+                       <img src="img/oleksey.png" alt="Олексій Алчевський">
+                       <h3>Олексій Алчевський</h3>
+                    <p>Український промисловець, банкір, громадський діяч, меценат. </p>
+                </div>
+              </a>
+                <a href="./person-content/alchHr.html">
+               <div class="card">
+                     <img src="img/alchevska-khrystyna-oleksiivna.jpg" alt="Алчевська Ганна">
+                    <h3>Алчевська Ганна</h3>
+                  <p>Українська художниця, графік, ілюстратор, педагог, громадська діячка</p>
+                </div>
+              </a>
+                <div class="card">
+                  <img src="img/sveta.jpg" alt="Світлана Гуревич">
+                 <h3>Світлана Гуревич</h3>
+               <p>Велика людина з невеликим зростом, голова усієї П-32</p>
+             </div>
+             </div>
         </section>
     </main>
+   <footer>
+           <div class="contacts">
+                <p>artem.dobrovolsky04@gmail.com</p>
+                <p>+380 978 761 505</p>
+          </div>
+          <div class="social-icons">
+            <a  href=""><img class="icon" src="./img/Telegram_Messenger.png" alt=""></a>
+            <a  href=""><img class="icon" src="./img/twitter.png" alt=""></a>
+            <a  href=""><img class="icon" src="./img/instagram_PNG3.png" alt=""></a>
+         </div>
+   </footer>
 </body>
 </html>
