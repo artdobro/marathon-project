@@ -1,15 +1,128 @@
 img{
-    width: 400px;
-    height: 275px;
+    width: 420px;
+    height: 295px;
+    border-radius: 50px 50px 0px 0px;
 }
 .line{
     width: 1077px;
-    height: 20px;
+    height: 3px;
     fill: #0085FF;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    margin-top: 0;
 }
-figcaption{
-    font-family: 'Radley', serif;
-    font-size: 64px;
+h1{
+    font-family: 'Comorant Unicasw', semi-bold;
+    font-size: 94px;
     font-style: italic;
     font-weight: 400;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    padding-top: 150px;
+    padding-left: 109px;
+    line-height: 133%;
+    letter-spacing: 10%;
+}
+h2{
+    font-family: radley, serif;
+    font-size: 64px;
+    font-style: italic;
+    color: #0085FF;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+h3{
+    font-family: radley, serif;
+    font-size: 32px;
+    margin-top: 0;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+p{
+    font-family: radley, serif;
+    font-size: 20px;
+    margin-top: 9px;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+a{
+    all: unset;
+}
+.stand-with-ukraine{
+    font-family: radley, serif;
+    font-size: 32px;
+    margin-left: 90px;
+    margin-bottom: 0;
+    display: inline;
+    margin-left: 650px;
+}
+.ship{
+    margin-left: 520px;
+}
+.main-photo{
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: 842px;
+    filter: brightness(50%);
+    border-radius: 0px 0px 0px 0px;
+}
+.blue{
+    background-color: #0085FF;
+    position: absolute;
+    height: 156px;
+    width: 7px;
+    z-index: 1;
+    padding: 0;
+    margin-top: 240px;
+    margin-left: 80px;
+}
+.yellow{
+    background-color: #FFD700;
+    position: absolute;
+    height: 156px;
+    width: 7px;
+    z-index: 1;
+    padding: 0;
+    margin-top: 396px;
+    margin-left: 80px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 420px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1), 
+                height 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.card:hover{
+    transform: scale(1.1);  
+}
+footer{
+    margin-top: 100px;
+    background-color: #424141;
+    height: 180px;
+}
+.contacts{
+    color: #CACACA;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.social-icons{
+    display: flex;
+    position: absolute;
+    padding-left: 500px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
 }
