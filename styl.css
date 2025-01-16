@@ -111,6 +111,7 @@ footer{
     margin-top: 100px;
     background-color: #424141;
     height: 180px;
+    display: flex;
 }
 .contacts{
     color: #CACACA;
@@ -125,4 +126,5 @@ footer{
 .icon{
     width: 50px;
     height: 50px;
+    margin-top: 60px;
 }
